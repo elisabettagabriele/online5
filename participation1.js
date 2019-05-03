@@ -57,7 +57,7 @@
     
          
     function refreshMessages(){
-        let url = "http://localhost/Final-WebProgramming-Project-LycheeJuice-patch-1/finalServer.php";
+        let url = "https://obscure-dusk-81429.herokuapp.com/finalServer.php";
         fetch(url, {method: "GET", mode: 'no-cors'})   
         
         .then(checkStatus)
@@ -74,7 +74,7 @@
     }
     
     function sendMessage(){
-        let url = "http://localhost/Final-WebProgramming-Project-LycheeJuice-patch-1/finalServer.php";
+        let url = "https://obscure-dusk-81429.herokuapp.com/finalServer.php";
         let string = $("queue").innerHTML;
         let myJSON = JSON.stringify({string});
         let data =  new FormData();
