@@ -1,0 +1,30 @@
+body{
+    background-image: url(finalimages/raisedhand2.jpg);
+}
+
+h3{
+    position: relative;
+    text-align: center;
+    font-size: 30pt;
+}
+
+.container{
+
+    border: 10px solid black;
+    width: 600px;
+    height: 350px;
+    margin: auto;
+    background-color: whitesmoke;
+    
+    
+    
+}
+
+.question{
+    width: 500px;
+    height: 280px;
+    border: 10px solid black;
+    margin: auto;
+    background-color: whitesmoke;
+    
+}
